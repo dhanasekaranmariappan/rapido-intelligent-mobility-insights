@@ -182,9 +182,9 @@ Open your browser at `http://localhost:8501`
 
 ## 👤 Author
 
-**DHANASEKARAN**  
-Built as part of the GUVI × HCL Capstone Project  
-Domain: Mobility & Transportation Analytics
+**Dhanasekaran Mariappan**
+- GitHub: [@dhanasekaranmariappan](https://github.com/dhanasekaranmariappan)
+- Project: [Rapido: Intelligent Mobility Insight](https://github.com/dhanasekaranmariappan/rapido-intelligent-mobility-insights)
 
 ---
 
