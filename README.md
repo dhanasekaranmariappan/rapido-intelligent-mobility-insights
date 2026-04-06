@@ -49,31 +49,41 @@ All models exceed industry benchmarks (85–90% accuracy, RMSE ≤ 10%).
 
 ## 🗂️ Project Structure
 
+## 🗂️ Project Structure
+```
 rapido_insight/
-├── data/
+│
+├── 📂 data/
 │   ├── bookings.csv
 │   ├── customers.csv
 │   ├── drivers.csv
 │   ├── location_demand.csv
 │   └── time_features.csv
-├── src/
-│   ├── data_cleaning.py          # Step 1: Clean all 5 CSVs
-│   ├── feature_engineering.py   # Step 2: Build 29 new features
-│   ├── database.py               # Step 3: SQLite DB with indexes
-│   ├── train_all_models.py       # Master training pipeline
-│   └── models/
-│       ├── ride_outcome.py       # Model 1: Multi-class
-│       ├── fare_prediction.py    # Model 2: Regression
-│       ├── cancellation_risk.py  # Model 3: Binary
-│       └── driver_delay.py       # Model 4: Binary
-├── saved_models/                 # Trained .pkl files
-├── streamlit_app/
-│   └── app.py                    # 6-page interactive dashboard
-├── rapido.db                     # SQLite database
+│
+├── 📂 src/
+│   ├── data_cleaning.py
+│   ├── feature_engineering.py
+│   ├── database.py
+│   ├── train_all_models.py
+│   └── 📂 models/
+│       ├── ride_outcome.py
+│       ├── fare_prediction.py
+│       ├── cancellation_risk.py
+│       └── driver_delay.py
+│
+├── 📂 saved_models/
+│   ├── ride_outcome_model.pkl
+│   ├── fare_model.pkl
+│   ├── cancellation_risk_model.pkl
+│   └── driver_delay_model.pkl
+│
+├── 📂 streamlit_app/
+│   └── app.py
+│
+├── rapido.db
 ├── requirements.txt
 └── README.md
-
----
+```
 
 ## ⚙️ Setup & Installation
 
