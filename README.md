@@ -48,8 +48,6 @@ All models exceed industry benchmarks (85–90% accuracy, RMSE ≤ 10%).
 ---
 
 ## 🗂️ Project Structure
-
-## 🗂️ Project Structure
 ```
 rapido_insight/
 │
